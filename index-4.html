@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+  (function(){
+    var saved = localStorage.getItem('vitastar-theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+<meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0E1220" media="(prefers-color-scheme: dark)">
+
+<title>Vitastar Medical Centre | Family Doctor & GP in Boksburg</title>
+<meta name="description" content="Vitastar Medical Centre, led by Dr. A.H. Narotam, offers family medicine, chronic condition management and virtual consultations in Boksburg. Book by phone, email or WhatsApp.">
+<meta name="keywords" content="GP Boksburg, family doctor Boksburg, medical centre Boksburg, Dr A H Narotam, primary healthcare Boksburg, chronic disease management, virtual consultation South Africa">
+<meta name="author" content="Vitastar Medical Centre">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.vitastar.co.za/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="business.business">
+<meta property="og:title" content="Vitastar Medical Centre | Family Doctor & GP in Boksburg">
+<meta property="og:description" content="Family medicine, chronic condition management and virtual consultations with Dr. A.H. Narotam in Boksburg.">
+<meta property="og:url" content="https://www.vitastar.co.za/">
+<meta property="og:image" content="https://www.vitastar.co.za/assets/vitastar-social-card.jpg">
+<meta property="og:locale" content="en_ZA">
+<meta property="og:site_name" content="Vitastar Medical Centre">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Vitastar Medical Centre | Family Doctor & GP in Boksburg">
+<meta name="twitter:description" content="Family medicine, chronic condition management and virtual consultations with Dr. A.H. Narotam in Boksburg.">
+<meta name="twitter:image" content="https://www.vitastar.co.za/assets/vitastar-social-card.jpg">
+
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<!-- Structured data: local medical business -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalBusiness",
+  "name": "Vitastar Medical Centre",
+  "image": "https://www.vitastar.co.za/assets/vitastar-social-card.jpg",
+  "url": "https://www.vitastar.co.za/",
+  "telephone": ["+27105000323", "+27810272523"],
+  "email": "info@vitastar.co.za",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "The Mall Square, Shop 1, No 9 Bentel Avenue, Jansen Park",
+    "addressLocality": "Boksburg",
+    "postalCode": "1459",
+    "addressRegion": "Gauteng",
+    "addressCountry": "ZA"
+  },
+  "medicalSpecialty": "General Practice",
+  "sameAs": [
+    "https://www.facebook.com/profile.php?id=61574646637067",
+    "https://instagram.com/vitastardrahnarotam"
+  ],
+  "employee": {
+    "@type": "Physician",
+    "name": "Dr. A.H. Narotam",
+    "medicalSpecialty": "General Practice"
+  },
+  "acceptedPaymentMethod": ["Cash", "Discovery Health", "Bonitas", "Bestmed", "Sizwe Hosmed", "Affinity Health", "Kaelo"]
+}
+</script>
+</head>
+<body>
+
+
+<header>
+  <div class="container nav-row">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <circle cx="20" cy="20" r="19" fill="#0D2364"/>
+        <path d="M8 21 h6 l3 -8 l4 14 l3 -10 l2 4 h6" fill="none" stroke="#C09A67" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Vitastar
+    </a>
+    <nav class="links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#virtual">Virtual Care</a>
+      <a href="#aid">Medical Aid</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <a class="nav-cta" href="https://wa.me/27810272523?text=Hi,%20I'd%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener">Book via WhatsApp</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="icon-sun">☀</span>
+        <span class="icon-moon">☾</span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="container hero-grid">
+      <div>
+        <span class="eyebrow">Primary Healthcare · Boksburg</span>
+        <h1>Family medicine that treats you like a person, not a number.</h1>
+        <p class="lead">Vitastar Medical Centre, led by Dr. A.H. Narotam, offers everyday healthcare, clear medical guidance, and continuity of care for individuals and families in Boksburg.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/27810272523?text=Hi,%20I'd%20like%20to%20book%20an%20appointment" target="_blank" rel="noopener">Book an Appointment</a>
+          <a class="btn btn-outline" href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <svg class="cross" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M10 45 h20 l6 -20 l10 40 l8 -28 l5 8 h31" fill="none" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <figcaption>Photo placeholder — practice / doctor portrait</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="pulse" aria-hidden="true">
+    <svg viewBox="0 0 220 34"><path d="M0 17 H60 L72 5 L84 29 L96 17 H220"/></svg>
+  </div>
+
+  <section class="block" id="about">
+    <div class="container two-col">
+      <div>
+        <span class="eyebrow">Our Practice</span>
+        <h2>Vitastar Medical Centre</h2>
+      </div>
+      <div>
+        <p>Your trusted family doctor for everyday healthcare, clear advice, and peace of mind. Led by Dr. A.H. Narotam, Vitastar Medical Centre provides accessible primary healthcare for individuals and families in the Boksburg community.</p>
+        <p>Our practice focuses on practical medical care, straightforward advice, and continuity of care for patients of all ages — whether you're dealing with an illness, managing a chronic condition, or simply looking for guidance about your health.</p>
+        <p>We believe healthcare should be approachable, respectful, and centred around the needs of each patient.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="doctor">
+    <div class="container two-col">
+      <div class="photo-slot">Photo placeholder<br>Dr. A.H. Narotam</div>
+      <div>
+        <span class="eyebrow">Meet the Doctor</span>
+        <h2>Dr. A.H. Narotam</h2>
+        <p>Dr. Narotam has been in healthcare since 2007, with a lasting focus on primary healthcare and community medicine. He completed his medical degree at the University of the Witwatersrand. Years of close patient work have shaped a simple philosophy: patients should always be treated as people, not numbers.</p>
+        <p>He believes compassion and understanding are central to good healthcare — no one asks to become unwell, and seeking care should feel supportive, not stressful. As part of widening access to healthcare, the practice also offers virtual consultations for advice and follow-up care when an in-person visit isn't necessary.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="pulse" aria-hidden="true">
+    <svg viewBox="0 0 220 34"><path d="M0 17 H60 L72 5 L84 29 L96 17 H220"/></svg>
+  </div>
+
+  <section class="block" id="services">
+    <div class="container">
+      <span class="eyebrow">What We Treat</span>
+      <h2>Medical Services</h2>
+      <p style="max-width:60ch;">A range of primary healthcare services for individuals and families — from general consultations to ongoing chronic disease management and referrals when specialist care is needed.</p>
+      <div class="services-grid">
+        <div class="service-card"><span class="num">01</span><h3>General Consultations</h3><p>Everyday medical concerns, diagnosis, and treatment for patients of all ages.</p></div>
+        <div class="service-card"><span class="num">02</span><h3>Preventative Healthcare</h3><p>Screenings and check-ups to catch issues early and keep you well.</p></div>
+        <div class="service-card"><span class="num">03</span><h3>Chronic Condition Care</h3><p>Ongoing management of hypertension, diabetes, asthma, and cholesterol disorders.</p></div>
+        <div class="service-card"><span class="num">04</span><h3>Women's & Men's Health</h3><p>Care tailored to health concerns across every stage of life.</p></div>
+        <div class="service-card"><span class="num">05</span><h3>Referrals & Guidance</h3><p>Clear direction and referrals when specialist care is required.</p></div>
+        <div class="service-card"><span class="num">06</span><h3>Virtual Consultations</h3><p>Advice and follow-up care from wherever you are, when suitable.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="virtual">
+    <div class="container">
+      <div class="band">
+        <div>
+          <span class="eyebrow" style="color:var(--gold);">Virtual Consultations</span>
+          <h2>Healthcare access shouldn't be complicated.</h2>
+          <p>Virtual consultations are available for appropriate medical concerns and follow-up visits, so you can get advice and guidance even when visiting in person isn't possible.</p>
+        </div>
+        <a class="btn btn-outline" href="https://wa.me/27810272523?text=Hi,%20I'd%20like%20to%20enquire%20about%20a%20virtual%20consultation" target="_blank" rel="noopener">Enquire via WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="aid">
+    <div class="container">
+      <span class="eyebrow">Medical Aid Partners</span>
+      <h2>Cash and medical aid patients welcome</h2>
+      <div class="aid-strip">
+        <div class="aid-badge"><div class="check">✓</div><strong>Cash Patients</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Discovery Health</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Bonitas</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Bestmed</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Sizwe Hosmed</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Affinity Health</strong><span>Accepted</span></div>
+        <div class="aid-badge"><div class="check">✓</div><strong>Kaelo</strong><span>Accepted</span></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="pulse" aria-hidden="true">
+    <svg viewBox="0 0 220 34"><path d="M0 17 H60 L72 5 L84 29 L96 17 H220"/></svg>
+  </div>
+
+  <section class="block" id="contact">
+    <div class="container">
+      <span class="eyebrow">Get In Touch</span>
+      <h2>Book an appointment or ask a question</h2>
+      <div class="contact-grid" style="margin-top:28px;">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="email">Your e-mail</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="align-self:flex-start;">Send Message</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+        <div class="info-card">
+          <div class="info-line"><span class="ico">☎</span><div>General enquiries<br><a href="tel:0105000323">010 500 0323</a> · <a href="tel:0810272523">081 027 2523</a></div></div>
+          <div class="info-line"><span class="ico">✉</span><div><a href="mailto:info@vitastar.co.za">info@vitastar.co.za</a></div></div>
+          <div class="info-line"><span class="ico">📍</span><address style="font-style:normal;">The Mall Square, Shop 1<br>No 9 Bentel Avenue, Jansen Park<br>Boksburg, 1459</address></div>
+          <div class="info-line"><span class="ico">💬</span><div>Appointments can be made via phone, email, or WhatsApp.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">Vitastar Medical Centre</div>
+        <p style="margin:0;font-size:.9rem;color:rgba(255,255,255,.65);">Shop 1, No. 9 Bentel Avenue<br>Boksburg, Gauteng</p>
+      </div>
+      <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=61574646637067" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a href="https://instagram.com/vitastardrahnarotam" target="_blank" rel="noopener" aria-label="Instagram">ig</a>
+        <a href="https://wa.me/27810272523" target="_blank" rel="noopener" aria-label="WhatsApp">wa</a>
+        <a href="tel:0105000323" aria-label="Phone">☎</a>
+        <a href="mailto:info@vitastar.co.za" aria-label="Email">✉</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Copyright © 2026 Vitastar Medical Centre. All rights reserved.</span>
+      <span>Designed by Frog and Bee Media</span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Scroll to top">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
